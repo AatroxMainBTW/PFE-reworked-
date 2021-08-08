@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#1E1E1E"
+
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="10dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="10dp"
+
+
+    >
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/coordName"
+        android:src="@drawable/ic_maps"
+        />
+    <TextView
+        android:id="@+id/coordName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+        android:text="Coodrinate Name"
+        android:textColor="#CDCDCD"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/coordLatitude1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/coordName"
+        android:layout_toRightOf="@id/coordLatitude1"
+        android:text="Latitude:"
+        android:textColor="#CDCDCD" />
+    <TextView
+        android:id="@+id/coordLatitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/coordName"
+        android:layout_marginLeft="60dp"
+        android:text="Latitude"
+        android:textColor="#5757B5" />
+    <TextView
+        android:id="@+id/coordLongitude1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/coordName"
+        android:layout_toEndOf="@id/coordLatitude"
+        android:layout_toLeftOf="@id/coordLongitude"
+        android:layout_marginLeft="40dp"
+        android:text="Longitude:"
+        android:textColor="#CDCDCD"
+        android:layout_toRightOf="@id/coordLatitude" />
+    <TextView
+        android:id="@+id/coordLongitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/coordName"
+        android:layout_toEndOf="@id/coordLatitude"
+        android:layout_marginLeft="110dp"
+        android:text="Longitude"
+        android:textColor="#5757B5"
+        android:layout_toRightOf="@id/coordLatitude" />
+
+</RelativeLayout>

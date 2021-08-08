@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#313131"
+    android:orientation="vertical"
+    tools:context=".Activities.ChoiceActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:text="Tutorials"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu odio ut sem nulla pharetra diam sit. Pellentesque diam volutpat commodo sed. Neque ornare aenean euismod elementum nisi. Mollis aliquam ut porttitor leo a diam sollicitudin tempor. Faucibus interdum posuere lorem ipsum. Lorem dolor sed viverra ipsum nunc aliquet bibendum. Elementum integer enim neque volutpat. Pellentesque diam volutpat commodo sed egestas egestas. Ultrices sagittis orci a scelerisque purus semper eget. Tellus id interdum velit laoreet id donec. "
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/nextBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:backgroundTint="#80D1FF"
+        android:onClick="navigateToMainMenu"
+        android:text="Suivant"
+        android:textColor="#313131"
+        android:textStyle="bold"
+        app:cornerRadius="200dp" />
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_edu"
+            android:icon="@drawable/ic_education"
+            android:title="éducation" />
+
+        <item
+            android:id="@+id/nav_admin"
+            android:icon="@drawable/ic_admin"
+            android:title="administration" />
+
+        <item
+            android:id="@+id/nav_finance"
+            android:icon="@drawable/ic_finance"
+            android:title="finance"
+            />
+    </group>
+
+    <item android:title="Reset">
+        <menu>
+            <item
+                android:id="@+id/nav_reset"
+                android:icon="@drawable/ic_reset"
+                android:title="All">
+
+
+            </item>
+
+        </menu>
+    </item>
+
+</menu>
